@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+     char ch;
+     int a=2, b=3;
+     switch(ch);
+     case 'add':
+         printf("%d\n", a+b);
+         break;
+     case ‘sub':
+         printf("%d\n", a-b);
+         break;
+     case ‘multiple':
+         printf("%d\n", a*b);
+         break;
+     case ‘divi':
+         printf("%d\n", a/b);
+         break;
+     default:
+         printf("%Invalid Operation\n");
+    return 0;
+}
